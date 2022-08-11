@@ -1,0 +1,295 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.body {
+  display: grid;
+  grid-template-columns: 250px 2fr 1fr;
+  height: 100vh;
+}
+.main {
+  background-color: royalblue;
+}
+.main-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 15px;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+.tweet-creator {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  padding: 10px 15px;
+  border: 1px solid black;
+}
+.tweet-form {
+  display: grid;
+  gap: 1.5rem;
+}
+.form-input {
+  display: grid;
+  gap: 1px;
+}
+.Everyone-can-reply {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid black;
+  padding: 15px 0;
+}
+.text-input {
+  border: none;
+  background-color: #16437e;
+  height: 45px;
+  font-size: larger;
+}
+.nav-form-items {
+  display: grid;
+  grid-auto-flow: column;
+}
+.form-items {
+  color: blue;
+}
+.tweeting {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
+.button-div {
+  place-self: self-end;
+}
+.post-header {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+.post-elements-section {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+.post-element-ul {
+  display: grid;
+  grid-template-rows: auto;
+}
+.post-element {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 2rem;
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+.post-elements {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  gap: 10px;
+}
+.person {
+  align-self: start;
+  margin-top: 45px;
+  height: 45px;
+  width: 45px;
+  background-color: red;
+
+  border-radius: 50%;
+}
+.aside-elements {
+  display: grid;
+  font-size: 15px;
+  gap: 1rem;
+}
+.post-image {
+  width: min-content;
+  max-height: 500px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+.like-numbers {
+  list-style: none;
+  display: grid;
+  grid-auto-flow: column;
+}
+.retweets {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+.right-section {
+  display: grid;
+  gap: 1rem;
+  align-content: start;
+  background-color: bisque;
+  padding: 15px;
+}
+.trending-div {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+.trending {
+  display: grid;
+  gap: 5px;
+}
+.right-side-element {
+  display: grid;
+  gap: 10px;
+  background-color: cadetblue;
+  border-radius: 20px;
+  padding: 10px;
+}
+.right-side-element div {
+  display: grid;
+  gap: 1.5rem;
+}
+.right-side-element2 {
+  display: grid;
+  gap: 1rem;
+  background-color: cadetblue;
+  border-radius: 20px;
+  padding: 10px;
+}
+.who-to-follow {
+  display: grid;
+}
+.right-side-element2-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 10px;
+}
+.search-form{
+    display: grid;
+}
+.search-input{
+    border: none;
+    height: 40px;
+    width: inherit;
+ border-radius: 20px;
+ padding: 10px;    
+}
+
+.left-section {
+  display: grid;
+  grid-auto-flow: row;
+  background-color: #16437e;
+  align-content: start;
+}
+.navigation-items {
+  display: grid;
+  align-content: baseline;
+  gap: 20px;
+  padding: 0px 30px;
+  width: fit-content;
+}
+.navigation-list {
+  list-style: none;
+}
+
+.navigation-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  gap: 20px;
+}
+.logo-container {
+  padding: 20px 10px 0px 10px;
+}
+.logo-img {
+  width: 30px;
+}
+.material-symbols-outlined {
+  font-size: 30px;
+}
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+/* CSS */
+.button-18 {
+  align-items: center;
+  background-color: #0a66c2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus {
+  background-color: #16437e;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, 0.7);
+}
+
+.button-18:disabled {
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, 0.08);
+  color: rgba(0, 0, 0, 0.3);
+}
+.button18-container {
+  display: grid;
+  align-items: center;
+}
+.profile-section {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  height: fit-content;
+  gap: 10px;
+  padding: 30px 30px;
+  align-self: end;
+}
+.profile-section-text {
+  text-align: center;
+  font-size: 15px;
+}
+.round-div {
+  background-color: red;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
